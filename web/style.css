@@ -1,6 +1,7 @@
 body{
 	background-image: linear-gradient(#F152D0,#DC07F9,rgba(251, 5, 196, 1));
 	font-family: Nunito;
+
 }
 
 h1,
@@ -30,7 +31,7 @@ p{
     -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+
 }
 div{
 	flex: 1;
@@ -38,7 +39,7 @@ div{
 	margin: 0px;
 }
 .gif{
-	width: 100%;
+	width: 50%;
 }
 
 button{
