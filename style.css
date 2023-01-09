@@ -1,0 +1,53 @@
+body{
+	background-image: linear-gradient(#F152D0,#DC07F9,rgba(251, 5, 196, 1));
+	font-family: Nunito;
+}
+
+h1,
+h2{
+	display: inline-block;
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+span{
+	color: red;
+	width: 100px;
+
+}
+p{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	font-size: 28px;
+	vertical-align: middle;
+}
+
+.div-img{
+	display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+div{
+	flex: 1;
+	padding: 0px;
+	margin: 0px;
+}
+.gif{
+	width: 100%;
+}
+
+button{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #3A133F;
+	padding: 5px;
+}
+button:active{
+	background-color: #591D60;
+}
