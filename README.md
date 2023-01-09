@@ -1,3 +1,2 @@
 # gombal
-https://1wikii.github.io/gombal/
-ini repo gombal
+https://1wikii.github.io/gombal/web/
