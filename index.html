@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Question</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="love.jpg">
+</head>
+
+
+<body>
+	
+<h1>
+	Halo Cantik <span>&#128525;</span>
+</h1>
+<div class="div-img">
+	<div>	
+	<img class="gif" src="https://media.tenor.com/fsItygHEVvIAAAAC/sending-love.gif">
+	</div>
+</div>
+
+<h2>
+	Kamu cinta aku gak ?
+</h2>
+
+	<br><button id="iyah" onclick="alert('Ehehehe, LOVE YOU TO>3')">
+	Iyah <p>&#128150;</p>
+	</button>
+	<button id="enggak" onclick="enggak(this)" style="position: absolute; 
+											   margin-left: 10px; 
+											   margin-right: 20px;">
+	ENGGAK! <p>&#128148;</p>
+	</button>
+
+</body>
+
+<script>
+	function enggak(id){
+	var iyah = document.getElementById("iyah");
+	var i = Math.floor(Math.random() * 300) + 1;
+	var j = Math.floor(Math.random() *100) + iyah.offsetTop;
+
+	id.style.left = i + "px";
+	id.style.top  = j + "px";
+}
+</script>
+
+</html>
